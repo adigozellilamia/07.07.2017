@@ -1,0 +1,59 @@
+Variable-deyishkenlik
+
+Variable programlamada istifade oluna bilecek her hansi bir deyiskeni xarakterize edir.
+Variable yaradarken melumatimiza uygun olaraq xarakterize etmek lazimdir.Misal:reqem(tam ve ya kesr),yazi, ishareler ve s.
+Variable ad vererken yalnizca (_) isharesinden bashqa ishareleri qebul etmir ve eyni adda sadece bir deyishken qeyd edebilerik
+ 
+
+En cox istifade olunan melumat novleri - Data Types
+Data types deyiskenin qarsiligi olaraq verdiyiniz deyere gore deyisir.
+Bunlara string, numeric values, boolean values aiddir.
+
+Numeric valuelar dedikde sadece reqemlerle gostermek istediyiniz melumatlar nezerde tutulur.
+
+Numeric valuelar 2 hisseye bolunur tam ver kesirli sayilar.
+Tam sayilara byte,sbyte,short,unshort,int,uint,long ve unlong daxildir.
+Kesirli sayilara ise float, double, decimal aiddir.
+Kesirli sayilar: eyni tam sayilar kimi dir sadece olaraq sayinin tam hissesi ucun ayiri,kesir hissesi ucun ise 
+ayri resurs istifade edir.
+
+Boolen value dedikde "True" (Duz) ve "False" (Sehv) cavablarini bize veren bir data type-dir.
+
+String values dedik de ise biz herfler,karekterler ($%^&* ve s.) herflerle birlikde istifade olunan reqemler (meselen: Baki2017) nezerde tutulur. "Dirnaq" 
+icerisinde yazilir ("") stringiniz. data type ise "Char"-dir. 16 byte her bir karaktere gore resurs istifade edir Meselen: Baku2017 bu o demekdir ki 8*16= 128 bytedir .
+ve hec bir hedd yoxdur.
+
+
+Operatorlar
+
+Programlam dilinde Operatorlar 3 novdur.
+1.Riyazi  operatorlar
+2.Muqayise operatorlar
+3.Mentiqi operatorlar
+
+Riyazi operatorlar toplama,cixarma,vurma,bolme ve mode (%) eyni riyaziyyatda oldugu kimi butun emeliyyatlar nezerde tutulur. 
+
+variable a=5
+variable b=2
+
+misal. a+b=5+2=7 
+       a-b=5-2=3  
+       a*b=5*2=10
+       a/b=5/2=2.5
+Mode emeliyyatina bu emeliyyat bize variablelarimizi birini digerine bolub bize qalan qaliqi gosterir.
+
+       a%b=5%2=1 verir yeni a%b=1
+
+Eger   b%a= yazarsaq 2ni 5e bolerken tam sayi ve qaliq cixmir ona gorede bir basa 2 alinir yeni b%a=2
+
+Muqayise emeliyyatlari 
+
+Muqayise emeliyyatlari dedikde eynidirmi (==),eynideyilmi (!=),boyukdurmu (>),kicikdirmi (<) ,boyuk beraberdimi (>=) , kicik beraberdimi (<=)nezerde tutulur. 
+bu emeliyatlar zamani bize cavablar True (Duz) ve False (Sehv) olaraq verilir.
+
+
+Mentiqi emeliyyatlari dedikde ve (&&),veya (||),deyildir (!)nezerde tutulur. Bu emeliyyatlar zamani bize cavablar True veya False olaraq cixir. 
+	1. ve (&&) emeliyatinda her iki teref True olmalidirki cavabimiz True olsun eks halda emeliyatin cavabi False olacaq 
+	2. ve ya (||) emeliyatinda her iki terefden ve ya iki terefden biri True olarsa cavab True olaca her iki teref False olarsa cavabimiz False olacaq 
+	3.deyildir (!) bu emeliyyat bizim True veya False olan oponetlerimizi tersine cevirir 
+
